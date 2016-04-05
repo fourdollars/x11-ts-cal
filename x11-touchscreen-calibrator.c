@@ -124,15 +124,16 @@ void get_display_info(Display *display)
                                     pw = mode_info->width;
                                     ph = mode_info->height;
                                     Atom *props = XRRListOutputProperties (display, res->outputs[i], &nprop);
-                                    for (l = 0; l < nprop; l++)
+                                    int h = 0;
+                                    for (; h < nprop; h++)
                                     {
-                                        if (strcmp("scaling mode", XGetAtomName (display, props[l])) == 0)
+                                        if (strcmp("scaling mode", XGetAtomName (display, props[h])) == 0)
                                         {
                                             unsigned char *prop;
                                             int actual_format;
                                             unsigned long nitems, bytes_after;
                                             Atom actual_type;
-                                            XRRGetOutputProperty (display, res->outputs[i], props[l],
+                                            XRRGetOutputProperty (display, res->outputs[i], props[h],
                                                     0, 100, False, False,
                                                     AnyPropertyType,
                                                     &actual_type, &actual_format,
