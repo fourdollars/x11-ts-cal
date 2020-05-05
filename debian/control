@@ -13,7 +13,7 @@ Build-Depends:
 Standards-Version: 3.9.6
 Homepage: https://fourdollars.github.io/x11-touchscreen-calibrator/
 Vcs-Browser: https://github.com/fourdollars/x11-touchscreen-calibrator
-Vcs-Git: git://github.com/fourdollars/x11-touchscreen-calibrator.git
+Vcs-Git: https://github.com/fourdollars/x11-touchscreen-calibrator.git
 
 Package: x11-touchscreen-calibrator
 Architecture: any
