@@ -11,7 +11,7 @@ Build-Depends:
     pkg-config,
     x11proto-input-dev
 Standards-Version: 3.9.6
-Homepage: http://fourdollars.github.io/x11-touchscreen-calibrator/
+Homepage: https://fourdollars.github.io/x11-touchscreen-calibrator/
 Vcs-Browser: https://github.com/fourdollars/x11-touchscreen-calibrator
 Vcs-Git: git://github.com/fourdollars/x11-touchscreen-calibrator.git
 
