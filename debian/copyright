@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: X Window System's Touchscreen Calibrator
 Upstream-Contact: Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Source: http://fourdollars.github.io/x11-touchscreen-calibrator/
