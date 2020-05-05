@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Shih-Yuan Lee (FourDollars) <fourdollars@gmail.com>
 Build-Depends:
     autotools-dev,
-    debhelper (>= 9.20160114),
+    debhelper (>= 10~),
     libx11-dev,
     libxi-dev,
     libxrandr-dev,
