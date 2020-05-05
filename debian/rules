@@ -6,4 +6,4 @@ export DEB_CFLAGS_MAINT_APPEND=-fPIE
 export DEB_LDFLAGS_MAINT_APPEND=-fPIE -pie -Wl,-z,now
 
 %:
-	dh $@ --with autotools-dev
+	dh $@
